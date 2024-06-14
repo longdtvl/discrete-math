@@ -1,7 +1,7 @@
 *Đỗ Việt Long - 14/06/2024*
 # Tìm kiếm trên đồ thị lớn
 
-## Thuật toán
+## 1. Thuật toán
 
 ### Phần A
 0. Tiền xử lý
@@ -28,3 +28,15 @@
 3. Timd đường đi ngắn nhất từ u -> v
 - Chạy thuật toán BFS trên đồ thị G
 - Với mỗi đỉnh in ra ánh xạ của nó
+
+## 2. Các bước chạy chương trình
+
+- Sử dụng command line
+
+### Phần A
+- Bước 1: `gcc bigDataWordA.c -o out`
+- Bước 2: `./out < testA.txt`
+
+### Phần B
+- Bước 1: `gcc bigDataWordB.c -o out`
+- Bước 2: `./out < testB.txt`
