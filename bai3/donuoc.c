@@ -24,7 +24,7 @@ int min(int a, int b) {
 void dfs(int a[][3], int k) {
     vis[a[k][1]][a[k][2]] = 1;
     if (flag == 0 && (a[k][1] == 2 || a[k][2] == 2)) {
-        printf("Day thao tac la:\n");
+        printf("Day cac thao tac la:\n");
         e = k;
         flag = 1;
     }
