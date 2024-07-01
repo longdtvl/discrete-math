@@ -1,0 +1,3 @@
+[submodule "BAI5"]
+	path = BAI5
+	url = https://github.com/longdtvl/discrete-math.git
